@@ -33,7 +33,7 @@ const uploadFormHashtagLengthChecking = (hashtags) => {
 
 const uploadFormHashtagHashSimbolChecking = (hashtags) => {
   const hashtagArray = uploadFormHashtagArray(hashtags);
-  return hashtagArray.every(tag => REGEXP.test(tag));
+  return hashtagArray.every((tag) => REGEXP.test(tag));
 };
 
 const uploadFormHashtagUnicCheckinh = (hashtags) => {
